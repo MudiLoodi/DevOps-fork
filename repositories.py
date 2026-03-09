@@ -85,8 +85,8 @@ GROUP_REPOS = [
     ],
     [
         "group m",
-        "Holy C Enjoyers",
-        ["https://github.com/MudiLoodi/minitwit"],
+        "<name>",
+        ["https://github.com/<organization|user>/<repository_name>"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
