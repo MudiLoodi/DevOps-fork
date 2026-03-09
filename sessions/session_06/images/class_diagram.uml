@@ -1,0 +1,19 @@
+@startuml
+
+class User {
+    +username: str
+    +email: str
+    +pw_hash: str
+}
+
+class Message {
+    +author: User
+    +text: str
+    +pub_date: datetime
+    +flagged: bool
+}
+
+User "* follows" -- "* followers" User
+Message "* messages" -- "1 author" User
+
+@enduml
